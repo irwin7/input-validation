@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../img/concept-sign-page-computer-screen-desktop-computer-with-login-form-sign-button-web-page-banner-presentation-social-media-documents-posters-illustration-user-account_126608-831.jpg");
+}
+.form {
+  width: 400px;
+  padding: 75px 30px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.input {
+  width: 100%;
+  border-radius: 45px;
+  height: 45px;
+  border: 1px solid #43D4F3;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.input:focus{
+  border-color: #9BB7D4;
+  outline: 1px solid #9BB7D4;
+}
+.input::placeholder{
+  color: #ccc;
+}
+.label {
+  padding: 5px 20px;
+  display: inline-block;
+}
+.submit-btn {
+  height: 45px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  border: 1px solid #43D4F3;
+  border-radius: 45px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.4s ease;
+}
+.submit-btn:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.alert{
+  color: #af0909;
+}
+
+.good{
+  color: #00ff55;
+}

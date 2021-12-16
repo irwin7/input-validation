@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LogIn</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="hero">
+    <form class="form" action="https://echo.htmlacademy.ru/" method="post">
+      <div class="input-group">
+        <input class="input input-fname" type="text" name="fname" autocomplete="off" placeholder="First Name" required>
+        <label class="label label-fname" for="fname"></label>
+      </div>
+      <div class="input-group">
+        <input class="input input-lname" type="text" name="lname" autocomplete="off" placeholder="Last Name" required>
+        <label class="label label-lname" for="lname"></label>
+      </div>
+      <div class="input-group">
+        <input class="input input-email" type="email" name="email" autocomplete="off" placeholder="Email" required>
+        <label class="label label-email" for="email"></label>
+      </div>
+      <div class="input-group">
+        <input class="input input-pass" type="password" name="password" autocomplete="off" placeholder="Password" required>
+        <label class="label label-pass" for="password"></label>
+      </div>
+      <div class="input-group">
+        <input class="input input-pass-check" type="password" name="check-password" autocomplete="off" placeholder="Retry Password" required>
+        <label class="label label-pass-check" for="check-password"></label>
+      </div>
+      <button class="submit-btn btn" type="submit">Submit</button>
+    </form>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+</html>
